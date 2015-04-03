@@ -24,7 +24,7 @@
     "browserify": "^7.0.0",
     "chai": "^1.10.0",
     "mocha": "^2.0.1",
-    "node-webkit-builder": "^0.4.0",
+    "node-webkit-builder": "^1.0.0",
     "reactify": "^0.17.1",
     "watchify": "^2.1.1"
   },
