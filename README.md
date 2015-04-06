@@ -6,6 +6,7 @@ This project is built with react-nodewebkit
 
 ## development
 
+* `npm -g install watchify`
 * Get started with `npm install`.
 * watch file and open the page in the browser: `npm start & open app/index.html`
 
