@@ -19,7 +19,8 @@
   "main": "app/index.html",
   "dependencies": {
     "bootstrap": "^3.3.4",
-    "react": "^0.13.0"
+    "react": "^0.13.0",
+    "react-bootstrap": "^0.20.1"
   },
   "devDependencies": {
     "browserify": "^7.0.0",
@@ -31,7 +32,7 @@
     "watchify": "^2.1.1"
   },
   "scripts": {
-    "start": "watchify app/jsx/index.jsx -d -o 'app/bundle.js' -v",
+    "start": "watchify app/jsx/index.jsx -o 'app/bundle.js' -v",
     "test": "mocha",
     "app": "nwbuild --run .",
     "build": "./build/build",
