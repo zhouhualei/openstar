@@ -18,18 +18,20 @@
   },
   "main": "app/index.html",
   "dependencies": {
-    "react": "^0.12.1"
+    "bootstrap": "^3.3.4",
+    "react": "^0.13.0"
   },
   "devDependencies": {
     "browserify": "^7.0.0",
     "chai": "^1.10.0",
+    "exorcist": "^0.1.6",
     "mocha": "^2.0.1",
     "node-webkit-builder": "^1.0.0",
     "reactify": "^0.17.1",
     "watchify": "^2.1.1"
   },
   "scripts": {
-    "start": "watchify app/jsx/index.jsx -o app/bundle.js -v",
+    "start": "watchify app/jsx/index.jsx -d -o 'app/bundle.js' -v",
     "test": "mocha",
     "app": "nwbuild --run .",
     "build": "./build/build",

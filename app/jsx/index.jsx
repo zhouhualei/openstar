@@ -1,6 +1,6 @@
 /* @jsx React.DOM */
 
 var React = require('react');
-var HelloWorld = require('./components/HelloWorld.jsx');
+var Content = require('./components/Content.jsx');
 
-React.render(<HelloWorld />, document.getElementById('content'));
+React.render(<Content />, document.getElementById('content'));

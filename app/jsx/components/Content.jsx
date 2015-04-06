@@ -1,12 +1,16 @@
 /* @jsx React.DOM */
 
 var React = require('react');
+var Banner = require('./Banner.jsx');
 
 module.exports = React.createClass({
-  render: function() {
+  render: function () {
     return (
       <div>
-        <h1>Openstar</h1>
+        <Banner />
+        <div>
+          <h1>Openstar</h1>
+        </div>
       </div>
     );
   }
